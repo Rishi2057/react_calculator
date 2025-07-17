@@ -49,7 +49,7 @@ const Allclear = ()=>{
               <button onClick={() => btnn("3")} className="bg-[#505050] text-white rounded-full text-4xl font-[600] w-15 h-15 flex items-center justify-center hover:bg-[#D4D4D2]" >3</button>
               <button onClick={() => btnn("/")} className="bg-[#FF9500] text-white rounded-full text-5xl font-[600] w-15 h-15 pb-2 flex items-center justify-center hover:bg-[#FFA836]" >÷</button>
               <button onClick={() => btnn("0")} className="bg-[#505050] text-white rounded-full text-4xl font-[600] w-15 h-15 flex items-center justify-center hover:bg-[#D4D4D2]" >0</button>
-              <button onClick={() => btnn("/")} className="bg-[#505050] text-white rounded-full text-4xl font-[600] w-15 h-15 pb-5 flex items-center justify-center hover:bg-[#D4D4D2]" >.</button>
+              <button onClick={() => btnn(".")} className="bg-[#505050] text-white rounded-full text-4xl font-[600] w-15 h-15 pb-5 flex items-center justify-center hover:bg-[#D4D4D2]" >.</button>
               <button onClick={equal}  className="bg-[#505050] text-white rounded-full text-4xl font-[600] w-15 h-15 pb-2 flex items-center justify-center hover:bg-[#FFA836]" >=</button>
               <button onClick={Allclear} className="bg-[#FF9500] text-white rounded-full text-4xl font-[600] w-15 h-15 p-3 flex items-center justify-center hover:bg-[#FFA836]" >C</button>
 
